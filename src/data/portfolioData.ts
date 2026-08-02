@@ -231,7 +231,7 @@ export const PORTFOLIO_DATA = {
       ],
       liveUrl: "https://multi-a-gent-system.vercel.app/",
       githubUrl: "https://github.com/mayanktrivedi05/MultiAGent-System",
-      image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?q=80&w=1000&auto=format&fit=crop",
+      image: "/multiagent.png",
       featured: true,
       gradient: "from-purple-600 via-indigo-600 to-cyan-500",
     },
