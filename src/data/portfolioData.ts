@@ -259,7 +259,7 @@ export const PORTFOLIO_DATA = {
       ],
       liveUrl: "https://ai-interview-frontend-wlvd.onrender.com",
       githubUrl: "https://github.com/mayanktrivedi05/AI_INTERVIEW",
-      image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop",
+      image: "/interviewiq.png",
       featured: true,
       gradient: "from-cyan-500 via-blue-600 to-purple-600",
     },
