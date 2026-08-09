@@ -257,7 +257,7 @@ export const PORTFOLIO_DATA = {
         "Redux Toolkit",
         "Recharts",
       ],
-      liveUrl: "https://ai-interview-frontend-wlvd.onrender.com",
+      liveUrl: "https://ai-interview-frontend-9s3r.onrender.com/",
       githubUrl: "https://github.com/mayanktrivedi05/AI_INTERVIEW",
       image: "/interviewiq.png",
       featured: true,

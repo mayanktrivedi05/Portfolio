@@ -55,9 +55,8 @@ export const Projects: React.FC = () => {
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                       {/* Project Preview Image & Tech Badge */}
                       <div
-                        className={`lg:col-span-6 relative overflow-hidden rounded-2xl group-hover:shadow-2xl transition-all duration-500 ${
-                          isEven ? 'lg:order-1' : 'lg:order-2'
-                        }`}
+                        className={`lg:col-span-6 relative overflow-hidden rounded-2xl group-hover:shadow-2xl transition-all duration-500 ${isEven ? 'lg:order-1' : 'lg:order-2'
+                          }`}
                       >
                         <div className="relative aspect-video w-full overflow-hidden rounded-2xl border border-white/10 bg-slate-900">
                           {/* Image Placeholder with Gradient Overlay */}
