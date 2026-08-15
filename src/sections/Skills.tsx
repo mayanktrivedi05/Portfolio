@@ -26,12 +26,16 @@ import {
   SiGit,
   SiPostman,
   SiFirebase,
+  SiPhp,
+  SiLaravel,
+  SiFastapi,
 } from 'react-icons/si';
 import { FiCode, FiServer, FiLayout, FiCpu, FiCloud } from 'react-icons/fi';
 
 // Icon Map for dynamic lookup
 const ICON_MAP: Record<string, React.ReactNode> = {
   SiPython: <SiPython className="w-6 h-6 text-yellow-400" />,
+  SiPhp: <SiPhp className="w-6 h-6 text-indigo-400" />,
   SiGo: <SiGo className="w-6 h-6 text-cyan-400" />,
   SiC: <SiC className="w-6 h-6 text-blue-400" />,
   SiCplusplus: <SiCplusplus className="w-6 h-6 text-blue-500" />,
@@ -41,6 +45,8 @@ const ICON_MAP: Record<string, React.ReactNode> = {
   SiMongodb: <SiMongodb className="w-6 h-6 text-emerald-400" />,
   SiNodedotjs: <SiNodedotjs className="w-6 h-6 text-emerald-500" />,
   SiExpress: <SiExpress className="w-6 h-6 text-slate-200" />,
+  SiLaravel: <SiLaravel className="w-6 h-6 text-red-500" />,
+  SiFastapi: <SiFastapi className="w-6 h-6 text-teal-400" />,
   SiDocker: <SiDocker className="w-6 h-6 text-sky-400" />,
   SiRedis: <SiRedis className="w-6 h-6 text-red-500" />,
   SiMysql: <SiMysql className="w-6 h-6 text-blue-400" />,

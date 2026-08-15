@@ -115,15 +115,17 @@ export const Projects: React.FC = () => {
 
                         {/* CTA Buttons */}
                         <div className="flex items-center gap-4">
-                          <a
-                            href={project.liveUrl}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider text-white bg-gradient-to-r from-violet-600 to-cyan-500 hover:from-violet-500 hover:to-cyan-400 shadow-lg shadow-violet-600/30 hover:scale-105 active:scale-95 transition-all"
-                          >
-                            <FiExternalLink className="w-4 h-4" />
-                            Live Demo
-                          </a>
+                          {project.liveUrl && (
+                            <a
+                              href={project.liveUrl}
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-xs font-bold uppercase tracking-wider text-white bg-gradient-to-r from-violet-600 to-cyan-500 hover:from-violet-500 hover:to-cyan-400 shadow-lg shadow-violet-600/30 hover:scale-105 active:scale-95 transition-all"
+                            >
+                              <FiExternalLink className="w-4 h-4" />
+                              Live Demo
+                            </a>
+                          )}
 
                           <a
                             href={project.githubUrl}

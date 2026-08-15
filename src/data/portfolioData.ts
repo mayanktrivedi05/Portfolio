@@ -5,7 +5,7 @@ export interface Project {
   description: string;
   bullets: string[];
   techStack: string[];
-  liveUrl: string;
+  liveUrl?: string;
   githubUrl: string;
   image: string;
   featured: boolean;
@@ -129,6 +129,7 @@ export const PORTFOLIO_DATA = {
       iconName: "code-2",
       skills: [
         { name: "Python", icon: "SiPython" },
+        { name: "PHP", icon: "SiPhp" },
         { name: "Go (Golang)", icon: "SiGo" },
         { name: "C", icon: "SiC" },
         { name: "C++", icon: "SiCplusplus" },
@@ -144,6 +145,8 @@ export const PORTFOLIO_DATA = {
       skills: [
         { name: "Node.js", icon: "SiNodedotjs" },
         { name: "Express.js", icon: "SiExpress" },
+        { name: "Laravel", icon: "SiLaravel" },
+        { name: "FastAPI", icon: "SiFastapi" },
         { name: "Microservices", icon: "SiDocker" },
         { name: "Redis", icon: "SiRedis" },
         { name: "MongoDB", icon: "SiMongodb" },
@@ -182,6 +185,26 @@ export const PORTFOLIO_DATA = {
   ] as SkillCategory[],
 
   experiences: [
+    {
+      role: "Software Development Intern",
+      company: "NextMAS Innovations (OPC) Private Limited",
+      period: "Aug 2026 – Present",
+      location: "Remote, India",
+      type: "Internship",
+      bullets: [
+        "Engineered full-stack features using React.js, Node.js, and Laravel, building dynamic UI components and backend RESTful APIs for commercial client applications.",
+        "Integrated LLM-powered Generative AI pipelines and automated workflows to enhance application performance, smart context retrieval, and user engagement.",
+      ],
+      skills: [
+        "React.js",
+        "Node.js",
+        "Laravel",
+        "PHP",
+        "RESTful APIs",
+        "Generative AI",
+        "LLMs",
+      ],
+    },
     {
       role: "Freelance Software Development",
       company: "Full Stack & Systems Developer",
@@ -229,7 +252,6 @@ export const PORTFOLIO_DATA = {
         "Groq",
         "AWS S3",
       ],
-      liveUrl: "https://multi-a-gent-system.vercel.app/",
       githubUrl: "https://github.com/mayanktrivedi05/MultiAGent-System",
       image: "/multiagent.png",
       featured: true,
@@ -284,7 +306,6 @@ export const PORTFOLIO_DATA = {
         "JWT",
         "REST APIs",
       ],
-      liveUrl: "https://github.com/mayanktrivedi05/AirBnB",
       githubUrl: "https://github.com/mayanktrivedi05/AirBnB",
       image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?q=80&w=1000&auto=format&fit=crop",
       featured: true,
