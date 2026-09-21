@@ -209,6 +209,27 @@ export const PORTFOLIO_DATA = {
       ],
     },
     {
+      role: "Frontend Development Intern",
+      company: "Veloop Rewards",
+      period: "July 2026 – Aug 2026",
+      location: "Remote, India",
+      type: "Internship",
+      bullets: [
+        "Engineered a responsive Gamified Level-Up & Rewards Dashboard in React.js, Vite, and CSS Modules with fintech UI design principles.",
+        "Built an interactive \"XP Catcher\" mini-game featuring real-time score tracking, dynamic reward multipliers (+XP/+VEs), and state-driven game loops.",
+        "Implemented animated XP progress bars, locked reward roadmaps, daily task engagement cards, and deployed the production build to Vercel.",
+      ],
+      skills: [
+        "React.js",
+        "Vite",
+        "CSS Modules",
+        "JavaScript",
+        "Game Loops",
+        "Fintech UI",
+        "Vercel",
+      ],
+    },
+    {
       role: "Freelance Software Development",
       company: "Full Stack & Systems Developer",
       period: "Jul 2025 – Sep 2025",
@@ -233,6 +254,35 @@ export const PORTFOLIO_DATA = {
   ] as Experience[],
 
   projects: [
+    {
+      id: "nexusdata-ai",
+      title: "NexusData AI",
+      subtitle: "Autonomous Multi-Agent Data Intelligence Platform",
+      description:
+        "An enterprise-grade agentic data intelligence system for safety-audited SQL querying and automated ETL pipelines using LangGraph.",
+      bullets: [
+        "Intelligent Multi-Agent Routing: Built on LangGraph to dynamically classify incoming user intent into analytical database lookups or ETL data transformation pipelines using structured Pydantic schemas.",
+        "AI-Powered SQL Analyst with Zero-Mutation Guardrails: Automatically discovers live database schemas, synthesizes ANSI/PostgreSQL queries, and runs every query through an isolated AI Safety Auditor enforcing strict read-only compliance.",
+        "Autonomous ETL Data Engineering Sub-Agent: Extracts semi-structured data from live REST APIs, normalizes payloads, and generates sandboxed Pandas scripts to transform and export tabular datasets to CSV, Parquet, and JSON.",
+        "Dual Database Architecture & Fallback Engine: Integrates with production PostgreSQL connection pools with zero-configuration SQLite fallback, Streamlit Web Studio, and containerized Docker deployment.",
+      ],
+      techStack: [
+        "Python",
+        "LangGraph",
+        "LangChain",
+        "Groq Llama-3.3-70B",
+        "PostgreSQL",
+        "SQLite",
+        "Pandas",
+        "Pydantic v2",
+        "Streamlit",
+        "Docker",
+      ],
+      githubUrl: "https://github.com/mayanktrivedi05/NexusData_AI_Agent",
+      image: "/nexusdata.png",
+      featured: true,
+      gradient: "from-cyan-500 via-indigo-600 to-purple-600",
+    },
     {
       id: "multi-agent-ai",
       title: "Multi-Agent.AI",
